@@ -8,7 +8,7 @@ body {
 
 header {
   font-family: Arial, sans-serif;
-  background-color: rgba(5, 41, 95, 0.8);
+  background-color: rgba(6, 29, 65, 0.8);
   text-transform: uppercase;
   color: rgb(255, 255, 255); 
   padding-top: 1.5em;
@@ -28,7 +28,7 @@ main {
 
 footer {
   font-family: Arial, sans-serif;
-  background-color: rgba(246, 181, 255, 0.8); 
+  background-color: #efcbf8;; 
   color: rgb(0, 0, 0);
   font-size: 1em;
   padding-top: 1em;
@@ -39,7 +39,7 @@ footer {
 
 nav {
   font-family: Arial, sans-serif;
-  background-color: rgba(246, 181, 255, 0.8);
+  background-color: #efcbf8;
   color: rgb(0, 0, 0);
   font-size: 0.9em;
 }
@@ -69,30 +69,6 @@ main p {
   font-size: 1em;
 }
 
-nav ul {
-  list-style-type: none;
-}
-
-nav a{
-  text-decoration: none;
-  padding-top: 0.5em;
-  padding-left:0em;
-  padding-right:0.2em;
-  padding-bottom: 0.5em;
-}
-
-
-nav a:hover {
-  color: rgb(255, 255, 255);
-  background-color: rgba(198, 35, 223, 0.8);
-}
-
-main ul {
-  font-family: Arial, sans-serif;
-  color: rgb(0, 0, 0);
-  font-size: 1em;
-}
-
 video {
   width:50%;
   height:50%;
@@ -108,7 +84,49 @@ textarea {
   height:10em;
 }
 
+table {
+  border: 0.1em solid;
+  width: 80%;
+}
+
+table th {
+  border: 0.2em solid;
+}
+
+table td {
+  border: 0.1em solid;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav a{
+  text-decoration: none;
+  padding-top: 0.5em;
+  padding-left:0em;
+  padding-right:0.2em;
+  padding-bottom: 0.5em;
+}
+
+
+nav a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(217, 66, 240, 0.8);
+}
+
+main ul {
+  font-family: Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+}
+
+
 @media only screen and (max-width: 600px) {
+  main p {
+    font-size: 0.8em;
+  }
+  
   header {
     padding-top: 1em;
     padding-left:1.5em;
@@ -119,5 +137,12 @@ textarea {
   nav a{
     padding-left:0.5em;
     padding-right:0.5em;
+  }
+  figure {
+    width:40%;
+    height:40%;
+  }
+  h2 {
+    font-size: 1.2em;
   }
 }
