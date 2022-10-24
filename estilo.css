@@ -1,5 +1,5 @@
 /*********************************
-Dana Álvarez Murillo - UO278249
+Andrés Álvarez Murillo - UO278249
 Descripcion de los estilos
 **********************************/
 body {
@@ -71,12 +71,12 @@ main p {
 
 video {
   width:50%;
-  height:50%;
+  height:auto
 }
 
 img {
   width:15%;
-  height:15%;
+  height: auto;
 }
 
 textarea {
@@ -124,9 +124,8 @@ main ul {
 
 @media only screen and (max-width: 600px) {
   main p {
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
-  
   header {
     padding-top: 1em;
     padding-left:1.5em;
@@ -138,9 +137,11 @@ main ul {
     padding-left:0.5em;
     padding-right:0.5em;
   }
-  figure {
-    width:40%;
-    height:40%;
+  img {
+    width: 80%;
+  }
+  video {
+    width:100%;
   }
   h2 {
     font-size: 1.2em;
