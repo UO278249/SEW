@@ -1,0 +1,44 @@
+/*********************************
+Andrés Álvarez Murillo - UO278249
+Descripcion del layout 
+**********************************/
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header'
+      'menu main'
+      'menu main'
+      'footer footer';
+    gap: 1em;
+    padding: 1em;
+    grid-template-columns: 1fr 8fr;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.headergrid { 
+  grid-area: header;
+}
+
+.menugrid { 
+  grid-area: menu;
+}
+.maingrid { 
+  grid-area: main; 
+ 
+}
+.footergrid { 
+  grid-area: footer; 
+}
+
+nav ul {
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 1em;
+  align-items: flex-end;
+}
+
+nav li {
+  flex-grow:1;
+}

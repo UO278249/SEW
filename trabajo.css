@@ -1,0 +1,36 @@
+/*********************************
+Andrés Álvarez Murillo - UO278249
+Descripcion de los estilos
+**********************************/
+
+body {
+    font-family: Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(202, 202, 202);
+    }
+  h1,h2,h3 { 
+    font-family: Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 2em ;
+    background-color:rgb(177, 36, 153);   
+    }
+
+    footer {
+        font-family: Tahoma, sans-serif;
+        color: rgb(255, 255, 255);
+        background-color: rgb(74, 28, 95);
+        display: inline;
+    }
+    nav {
+        font-family: Tahoma, sans-serif;
+        color: rgb(255, 255, 255);
+        background-color: rgb(10, 41, 70);
+        padding: 2em ;
+        margin: 2em ;
+
+    }   
+    enlaceExt {
+        font-family: Tahoma, sans-serif;
+        color: rgb(255, 2, 2);
+        background-color: rgb(255, 255, 255);
+    }

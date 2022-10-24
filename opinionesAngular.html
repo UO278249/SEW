@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Opinion sobre Angular</title>
+
+    
+    <!--Definición de la ventana gráfica-->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <meta name ="author" content ="Andrés Álvarez Murillo" />
+    <meta name ="description" content ="pagina dedicada a ser la portada del sitio web que " />
+    <meta name ="keywords" content ="framework,web,Angular,TypeScript,opiniones,valoraciones" />
+
+    <link rel="stylesheet" type="text/css" href="layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+<body class="grid-container">
+    <nav class="menugrid">
+        <ul>
+            <li><a href="index.html">Página Principal</a></li>
+            <li><a href="ventajasAngular.html">Ventajas de Angular</a></li>
+            <li><a href="versionesAngular.html">Versiones de Angular</a></li>
+            <li><a href="opinionesAngular.html">Opinion sobre Angular</a></li>
+        </ul>
+    </nav>
+
+    <header class="headergrid">
+        <h1>El Framework Web Angular</h1>
+           <p>Todo lo que debes saber del famoso framework web.</p>
+    </header>
+    <main class="maingrid">
+        <h2>Tu opinión sobre Angular</h2>
+        <p>Si te hemos convencido de usar este framework, por favor, completa el formulario y danos tu opinion sincera sobre él (algunos campos son obligatorios).</p>
+        <form>
+            <p><label for="nombre">Nombre: <input id="nombre" required type=text></label></p>
+            <p><label for="fecha">Fecha de Nacimiento: <input id="fecha" required type=date></label></p>
+            <p><label for="mail">Email : <input id="mail" type=email></label></p>
+            <p><label for="dias">Días usando Angular : <input id="dias" type=number></label></p>
+            <fieldset>
+                <legend> Opinion del Framework </legend>
+                <p><label for="op1"> <input id="op1" type=radio required  name=opinion> Muy Buena </label></p>
+                <p><label for="op2"> <input id="op2" type=radio required  name=opinion> Buena </label></p>
+                <p><label for="op3"> <input id="op3" type=radio required  name=opinion> Mala </label></p>
+                <p><label for="op4"> <input id="op4" type=radio required  name=opinion> Muy mala </label></p>
+            </fieldset>
+            <p><label for="comentarios">Comentarios: <textarea id="comentarios" maxlength=1000></textarea></label></p>
+            <input type="submit" value="Enviar" />
+        </form>
+    </main>
+    <footer class="footergrid">
+        <p>Enlace para conocer más
+        <a href="https://www.softwareadvice.es/reviews/252929/angular"
+        title="Enlace a la página de opiniones de softwareadvice">opiniones sobre Angular
+        </a>   
+        </p>
+        </footer>
+</body>
+</html>
