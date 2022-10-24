@@ -42,3 +42,21 @@ nav ul {
 nav li {
   flex-grow:1;
 }
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header'
+      'menu menu'
+      'main main'
+      'footer footer';
+    grid-template-columns: 1fr 1fr;
+  }
+  nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 1em;
+    align-items: center;
+  }
+}
