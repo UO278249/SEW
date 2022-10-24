@@ -8,7 +8,7 @@ body {
 
 header {
   font-family: Arial, sans-serif;
-  background-color: rgba(6, 29, 65, 0.8);
+  background-color: rgba(3, 13, 29, 0.8);
   text-transform: uppercase;
   color: rgb(255, 255, 255); 
   padding-top: 1.5em;
@@ -28,7 +28,7 @@ main {
 
 footer {
   font-family: Arial, sans-serif;
-  background-color: #efcbf8;; 
+  background-color: #f8dbff;; 
   color: rgb(0, 0, 0);
   font-size: 1em;
   padding-top: 1em;
@@ -39,7 +39,7 @@ footer {
 
 nav {
   font-family: Arial, sans-serif;
-  background-color: #efcbf8;
+  background-color: #f8dbff;
   color: rgb(0, 0, 0);
   font-size: 0.9em;
 }
