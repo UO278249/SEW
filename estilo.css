@@ -25,36 +25,42 @@ main {
   padding-left:2em;
   padding-right:2em;
   padding-bottom: 1em;
+  /*hereda foreground color de body*/
 }
 
 footer {
-  background-color: #f4caff;; 
+  background-color: #f4caff;
   font-size: 1em;
   padding-top: 1em;
   padding-left:2em;
   padding-right:2em;
   padding-bottom: 1em;
+  /*hereda foreground color de body*/
 }
 
 nav {
   background-color: #f4caff;
   font-size: 0.9em;
+  /*hereda foreground color de body*/
 }
 
 main h2 {
   text-transform: uppercase;
   color: rgb(56, 34, 255);
   font-size: 1.6em;
+  /*hereda background color de main*/
 }
 
 main h3 {
   color: rgb(56, 34, 255);
   font-size: 1.0em;
+  /*hereda background color de main*/
 }
 
 header p{
   color: rgb(255, 255, 255);
   font-size: 0.75em;
+  /*hereda background color de header*/
 }
 
 main p {
@@ -110,10 +116,11 @@ nav a:hover {
 main ul {
   color: rgb(0, 0, 0);
   font-size: 1em;
+  /*hereda background color de body*/
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   main p {
     font-size: 0.8em;
   }
