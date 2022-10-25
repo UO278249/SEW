@@ -12,7 +12,7 @@ Descripcion del layout
       'footer footer';
     gap: 1em;
     padding: 1em;
-    grid-template-columns: 1fr 8fr;
+    grid-template-columns: 1fr 6fr;
     justify-items: stretch;
     align-items: stretch;
 }
@@ -54,7 +54,6 @@ nav li {
     grid-template-columns: 1fr 1fr;
   }
   nav ul {
-    display: flex;
     flex-flow: row wrap;
     column-gap: 1em;
     align-items: center;

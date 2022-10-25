@@ -3,12 +3,13 @@ Andrés Álvarez Murillo - UO278249
 Descripcion de los estilos
 **********************************/
 body {
-  background-color: rgba(184, 234, 253, 0.8);
+  font-family: Arial, sans-serif;
+  background-color: rgba(199, 239, 255, 0.815);
+  color: rgb(0, 0, 0);
 }
 
 header {
-  font-family: Arial, sans-serif;
-  background-color: rgba(3, 13, 29, 0.8);
+  background-color: rgb(7, 45, 107);
   text-transform: uppercase;
   color: rgb(255, 255, 255); 
   padding-top: 1.5em;
@@ -19,7 +20,7 @@ header {
 }
 
 main {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgb(255, 255, 255);
   padding-top: 1em;
   padding-left:2em;
   padding-right:2em;
@@ -27,9 +28,7 @@ main {
 }
 
 footer {
-  font-family: Arial, sans-serif;
-  background-color: #f8dbff;; 
-  color: rgb(0, 0, 0);
+  background-color: #f4caff;; 
   font-size: 1em;
   padding-top: 1em;
   padding-left:2em;
@@ -38,34 +37,27 @@ footer {
 }
 
 nav {
-  font-family: Arial, sans-serif;
-  background-color: #f8dbff;
-  color: rgb(0, 0, 0);
+  background-color: #f4caff;
   font-size: 0.9em;
 }
 
-h2 {
-  font-family: Arial, sans-serif;
+main h2 {
   text-transform: uppercase;
   color: rgb(56, 34, 255);
   font-size: 1.6em;
 }
 
-h3 {
-  font-family: Arial, sans-serif;
+main h3 {
   color: rgb(56, 34, 255);
   font-size: 1.0em;
 }
 
 header p{
-  font-family: Arial, sans-serif;
   color: rgb(255, 255, 255);
   font-size: 0.75em;
 }
 
 main p {
-  font-family: Arial, sans-serif;
-  color: rgb(0, 0, 0);
   font-size: 1em;
 }
 
@@ -112,11 +104,10 @@ nav a{
 
 nav a:hover {
   color: rgb(255, 255, 255);
-  background-color: rgba(217, 66, 240, 0.8);
+  background-color: rgba(217, 66, 240, 0.801);
 }
 
 main ul {
-  font-family: Arial, sans-serif;
   color: rgb(0, 0, 0);
   font-size: 1em;
 }
@@ -143,7 +134,7 @@ main ul {
   video {
     width:100%;
   }
-  h2 {
+  main h2 {
     font-size: 1.2em;
   }
 }
