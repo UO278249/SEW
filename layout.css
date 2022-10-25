@@ -55,7 +55,7 @@ nav li {
   }
   nav ul {
     flex-flow: row wrap;
-    column-gap: 1em;
+    column-gap: 0.3em;
     align-items: center;
   }
 }

@@ -124,12 +124,18 @@ main ul {
   main p {
     font-size: 0.8em;
   }
+  table {
+    font-size: 0.8em;
+  }
   header {
     padding-top: 1em;
     padding-left:1.5em;
     padding-right:1.5em;
     padding-bottom: 1em;
     font-size: 1em;
+  }
+  audio {
+    width:80%;
   }
   nav a{
     padding-left:0.5em;
